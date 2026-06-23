@@ -31,7 +31,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://haul-log-1.onrender.com',
+]
 
 
 # Application definition
