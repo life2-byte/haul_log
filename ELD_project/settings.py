@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://haul-log-1.onrender.com',
+    'haul-log-1.onrender.com',
 ]
 
 
